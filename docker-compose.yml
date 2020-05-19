@@ -1,4 +1,4 @@
-version: "3.5"
+version: "1.0"
 
 services:
   hlds:
@@ -22,7 +22,7 @@ services:
       - "27015:27015"
       - "27015:27015/udp"
     environment:
-      - RCON_PASSWORD=""
+      - RCON_PASSWORD="sap"
       - SV_PASSWORD=""
-      - MAXPLAYERS="24"
+      - MAXPLAYERS="12"
       - MAPNAME="de_dust2"
